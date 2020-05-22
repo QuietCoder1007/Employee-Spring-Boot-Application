@@ -3,15 +3,20 @@ package net.java.remotedevice;
 import net.java.commandobjects.CommandBase;
 
 public class RemoteControl {
-	CommandBase onCommand, offCommand;
+	CommandBase getCommand, postCommand, deleteCommand;
 
-	public void onButtonPressed(CommandBase onCommand) {
-		this.onCommand = onCommand;
-		onCommand.execute();
+	public void get(CommandBase getCommand) {
+		this.getCommand = getCommand;
+		getCommand.execute();
 	}
 
-	public void offButtonPressed(CommandBase offCommand) {
-		this.offCommand = offCommand;
-		offCommand.execute();
+	public void post(CommandBase postCommand) {
+		this.postCommand = postCommand;
+		postCommand.execute();
+	}
+
+	public void delete(CommandBase deleteCommand) {
+		this.deleteCommand = deleteCommand;
+		deleteCommand.execute();
 	}
 }

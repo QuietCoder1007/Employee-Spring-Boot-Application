@@ -1,19 +1,28 @@
 package net.java.commandobjects;
 
-import net.java.model.Employee;
+import net.java.exceptions.ResourceNotFoundException;
+import net.java.repository.EmployeeRepository;
 
 public class ReadEmployeeCommand implements CommandBase {
 
-	Employee employee;
+	Long employeeId;
+	EmployeeRepository employeeRepository;
 
-	public ReadEmployeeCommand(Employee employee) {
-		this.employee = employee;
+	public ReadEmployeeCommand(EmployeeRepository employeeRepository, Long employeeId) {
+		this.employeeRepository = employeeRepository;
+		this.employeeId = employeeId;
 	}
 
 	@Override
 	public void execute() {
 		// TODO Auto-generated method stub
-		employee.read();
+		try {
+			employeeRepository.findById(employeeId).orElseThrow(
+					() -> new ResourceNotFoundException("Employee not found for this id :: " + employeeId));
+		} catch (ResourceNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }

@@ -1,19 +1,26 @@
 package net.java.commandobjects;
 
-import net.java.model.Employee;
+import net.java.repository.EmployeeRepository;
 
 public class DeleteAllEmployeesCommand implements CommandBase {
 
-	Employee employee;
+	EmployeeRepository employeeRepository;
 
-	public DeleteAllEmployeesCommand(Employee employee) {
-		this.employee = employee;
+	public DeleteAllEmployeesCommand(EmployeeRepository employeeRepository) {
+		this.employeeRepository = employeeRepository;
 	}
 
 	@Override
 	public void execute() {
 		// TODO Auto-generated method stub
-		employee.deleteAll();
+		try {
+			if (employeeRepository.count() <= 0) {
+				throw new Exception("The database has 0 employees");
+			}
+			employeeRepository.deleteAll();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }

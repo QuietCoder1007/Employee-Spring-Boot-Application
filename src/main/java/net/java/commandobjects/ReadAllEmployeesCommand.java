@@ -1,19 +1,26 @@
 package net.java.commandobjects;
 
-import net.java.model.Employee;
+import net.java.repository.EmployeeRepository;
 
 public class ReadAllEmployeesCommand implements CommandBase {
 
-	Employee employee;
+	EmployeeRepository employeeRepository;
 
-	public ReadAllEmployeesCommand(Employee employee) {
-		this.employee = employee;
+	public ReadAllEmployeesCommand(EmployeeRepository employeeRepository) {
+		this.employeeRepository = employeeRepository;
 	}
 
 	@Override
 	public void execute() {
 		// TODO Auto-generated method stub
-		employee.readAll();
+		try {
+			if (employeeRepository.count() <= 0) {
+				throw new Exception("The database has 0 items!");
+			}
+			employeeRepository.findAll();
+		} catch (Exception e) {
+
+		}
 	}
 
 }
