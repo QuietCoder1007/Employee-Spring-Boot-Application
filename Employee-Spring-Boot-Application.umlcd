@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_QhmAcJxsEeqr9IqNfd77-g">
+  <modelElement href="Employee-Spring-Boot-Application.uml#_SIqE4JxsEeqr9IqNfd77-g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TynsUJxsEeqr9IqNfd77-g" sourceAnchor="318.0,0.0" targetAnchor="62.0,85.0" dashed="true" superClass="_TyfwgJxsEeqr9IqNfd77-g" subClass="_Ty284JxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_Skba4JxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPQZYJxtEeqr9IqNfd77-g" sourceY="-30" targetX="445" targetY="64"/>
+    <bendpoints xmi:id="_PPQZYZxtEeqr9IqNfd77-g" sourceX="-445" sourceY="-30" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ty1uwJxsEeqr9IqNfd77-g" sourceAnchor="348.0,0.0" targetAnchor="1161.0,218.0" target="_T3zuUJxsEeqr9IqNfd77-g" source="_Ty284JxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_S9rBUJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPPyUJxtEeqr9IqNfd77-g" sourceY="-313" targetX="1142"/>
+    <stereotypes xmi:id="_Ty1uwZxsEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S99VMJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ty1uwpxsEeqr9IqNfd77-g" text="">
+      <visualProperties xmi:id="_VKO_gJxsEeqr9IqNfd77-g" position="-591.5,2.4999999999998295"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ty1uw5xsEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S9rBUZxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VKL8MJxsEeqr9IqNfd77-g" position="2.0,-98.58333333333326"/>
+      <visibility xmi:id="_Ty2V0JxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_Ty2V0ZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ty2V0pxsEeqr9IqNfd77-g" aggregationKind="NONE" name="employee" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3ZaMJxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VKQ0sJxsEeqr9IqNfd77-g" position="76.57142857142867,2.5"/>
+      <visibility xmi:id="_Ty2V05xsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_Ty2V1JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TzqOIJxsEeqr9IqNfd77-g" sourceAnchor="293.0,0.0" targetAnchor="62.0,85.0" dashed="true" superClass="_TyfwgJxsEeqr9IqNfd77-g" subClass="_Tz10UJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SkTfEJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPGBUJxtEeqr9IqNfd77-g" sourceY="-40" targetX="442" targetY="195"/>
+    <bendpoints xmi:id="_PPGBUZxtEeqr9IqNfd77-g" sourceX="-785" sourceY="-40" targetX="-343" targetY="195"/>
+    <bendpoints xmi:id="_PPGBUpxtEeqr9IqNfd77-g" sourceX="-785" sourceY="-171" targetX="-343" targetY="64"/>
+    <bendpoints xmi:id="_PPGoYJxtEeqr9IqNfd77-g" sourceX="-442" sourceY="-171" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TzsDUJxsEeqr9IqNfd77-g" sourceAnchor="292.0,86.0" targetAnchor="580.0,437.0" target="_T3zuUJxsEeqr9IqNfd77-g" source="_Tz10UJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_S9NuUJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPEzMJxtEeqr9IqNfd77-g" sourceY="15" targetX="1689" targetY="336"/>
+    <bendpoints xmi:id="_PPFaQJxtEeqr9IqNfd77-g" sourceX="-1689" sourceY="15" targetY="336"/>
+    <stereotypes xmi:id="_Tzxi4JxsEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S9qaQJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TzwUwJxsEeqr9IqNfd77-g" text="">
+      <visualProperties xmi:id="_VKW7UJxsEeqr9IqNfd77-g" position="819.0,10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Tzw70JxsEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S9NuUZxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VKT4AJxsEeqr9IqNfd77-g" position="-18.0,17.0"/>
+      <visibility xmi:id="_TzyxAJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_TzyJ8JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Tzw70ZxsEeqr9IqNfd77-g" aggregationKind="NONE" name="employee" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3Vv0JxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VKYJcJxsEeqr9IqNfd77-g" position="1638.0,328.0"/>
+      <visibility xmi:id="_TzzYEZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_TzzYEJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_T0CooJxsEeqr9IqNfd77-g" sourceAnchor="0.0,21.0" targetAnchor="62.0,85.0" dashed="true" superClass="_TyfwgJxsEeqr9IqNfd77-g" subClass="_T0Pc8JxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SlBQwJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPIdkJxtEeqr9IqNfd77-g" sourceX="-1407" targetX="-1278" targetY="395"/>
+    <bendpoints xmi:id="_PPIdkZxtEeqr9IqNfd77-g" sourceX="-1407" sourceY="-331" targetX="-1278" targetY="64"/>
+    <bendpoints xmi:id="_PPIdkpxtEeqr9IqNfd77-g" sourceX="-129" sourceY="-331" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T0Fr8JxsEeqr9IqNfd77-g" sourceAnchor="568.0,85.0" targetAnchor="1161.0,188.0" target="_T3zuUJxsEeqr9IqNfd77-g" source="_T0Pc8JxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_S-fgsJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPHPcJxtEeqr9IqNfd77-g" sourceX="836" targetX="2200" targetY="708"/>
+    <bendpoints xmi:id="_PPHPcZxtEeqr9IqNfd77-g" sourceX="836" sourceY="-708" targetX="2200"/>
+    <stereotypes xmi:id="_T0LLgJxsEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S-yboJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_T0JWUJxsEeqr9IqNfd77-g" text="">
+      <visualProperties xmi:id="_VKe3IJxsEeqr9IqNfd77-g" position="-837.0,348.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T0J9YJxsEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S-fgsZxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VKZ-oJxsEeqr9IqNfd77-g" position="36.0,-18.0"/>
+      <visibility xmi:id="_T0MZoJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T0LykJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T0KkcJxsEeqr9IqNfd77-g" aggregationKind="NONE" name="employee" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3ikIJxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VKk9wJxsEeqr9IqNfd77-g" position="1324.0,690.0"/>
+      <visibility xmi:id="_T0MZopxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T0MZoZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_T0etgJxsEeqr9IqNfd77-g" sourceAnchor="587.0,86.0" targetAnchor="62.0,85.0" dashed="true" superClass="_TyfwgJxsEeqr9IqNfd77-g" subClass="_T0vMMJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_Sk24sJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPKSwJxtEeqr9IqNfd77-g" sourceY="255" targetX="711" targetY="876"/>
+    <bendpoints xmi:id="_PPKSwZxtEeqr9IqNfd77-g" sourceX="-2049" sourceY="255" targetX="-1338" targetY="876"/>
+    <bendpoints xmi:id="_PPK50JxtEeqr9IqNfd77-g" sourceX="-2049" sourceY="-557" targetX="-1338" targetY="64"/>
+    <bendpoints xmi:id="_PPK50ZxtEeqr9IqNfd77-g" sourceX="-711" sourceY="-557" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T0iX4JxsEeqr9IqNfd77-g" sourceAnchor="616.0,43.0" targetAnchor="1161.0,158.0" target="_T3zuUJxsEeqr9IqNfd77-g" source="_T0vMMJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_S-Oa8JxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPJEoJxtEeqr9IqNfd77-g" sourceX="823" targetX="2230" targetY="857"/>
+    <bendpoints xmi:id="_PPJEoZxtEeqr9IqNfd77-g" sourceX="823" sourceY="-857" targetX="2230"/>
+    <stereotypes xmi:id="_T0qTsJxsEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S-e5oJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_T0nQYJxsEeqr9IqNfd77-g" text="">
+      <visualProperties xmi:id="_VK01YJxsEeqr9IqNfd77-g" position="-842.0,423.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T0pFkJxsEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S-Oa8ZxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VKoBEJxsEeqr9IqNfd77-g" position="37.0,-18.0"/>
+      <visibility xmi:id="_T0rh0ZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T0rh0JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T0psoJxsEeqr9IqNfd77-g" aggregationKind="NONE" name="employee" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3gH4JxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VK2DgJxsEeqr9IqNfd77-g" position="1333.0,839.0"/>
+      <visibility xmi:id="_T0sI4ZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T0sI4JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_T09OoJxsEeqr9IqNfd77-g" sourceAnchor="0.0,43.0" targetAnchor="62.0,85.0" dashed="true" superClass="_TyfwgJxsEeqr9IqNfd77-g" subClass="_T1KC8JxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SkiIkJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPMH8JxtEeqr9IqNfd77-g" sourceX="-790" targetX="-682" targetY="758"/>
+    <bendpoints xmi:id="_PPMH8ZxtEeqr9IqNfd77-g" sourceX="-790" sourceY="-694" targetX="-682" targetY="64"/>
+    <bendpoints xmi:id="_PPMH8pxtEeqr9IqNfd77-g" sourceX="-108" sourceY="-694" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T1AR8JxsEeqr9IqNfd77-g" sourceAnchor="293.0,86.0" targetAnchor="520.0,437.0" target="_T3zuUJxsEeqr9IqNfd77-g" source="_T1KC8JxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_S99VMZxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPK50pxtEeqr9IqNfd77-g" sourceY="45" targetX="1709" targetY="846"/>
+    <bendpoints xmi:id="_PPLg4JxtEeqr9IqNfd77-g" sourceX="-1709" sourceY="45" targetY="846"/>
+    <stereotypes xmi:id="_T1FKcJxsEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S-Nz4JxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_T1D8UJxsEeqr9IqNfd77-g" text="">
+      <visualProperties xmi:id="_VK9_UJxsEeqr9IqNfd77-g" position="841.0,-44.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T1D8UZxsEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S99VMpxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VK5G0JxsEeqr9IqNfd77-g" position="3.0,27.0"/>
+      <visibility xmi:id="_T1GYkZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T1GYkJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T1EjYJxsEeqr9IqNfd77-g" aggregationKind="NONE" name="employee" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3dEkJxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VK_NcJxsEeqr9IqNfd77-g" position="1679.0,738.0"/>
+      <visibility xmi:id="_T1G_oZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T1G_oJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_T1ahoJxsEeqr9IqNfd77-g" sourceAnchor="160.0,0.0" targetAnchor="62.0,85.0" dashed="true" superClass="_TyfwgJxsEeqr9IqNfd77-g" subClass="_T1tckJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SlH-cJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPNWEJxtEeqr9IqNfd77-g" sourceY="-171" targetX="-373" targetY="64"/>
+    <bendpoints xmi:id="_PPNWEZxtEeqr9IqNfd77-g" sourceX="373" sourceY="-171" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T1dk8JxsEeqr9IqNfd77-g" sourceAnchor="0.0,43.0" targetAnchor="610.0,437.0" target="_T3zuUJxsEeqr9IqNfd77-g" source="_T1tckJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_S-yboZxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPMvAJxtEeqr9IqNfd77-g" sourceX="-685" targetY="278"/>
+    <stereotypes xmi:id="_T1jEgZxsEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S_EvgJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_T1h2YJxsEeqr9IqNfd77-g" text="">
+      <visualProperties xmi:id="_VLHwUJxsEeqr9IqNfd77-g" position="633.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T1idcJxsEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S-ybopxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VLC30JxsEeqr9IqNfd77-g" position="-65.0,-18.0"/>
+      <visibility xmi:id="_T1lgwJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T1k5sJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T1jEgJxsEeqr9IqNfd77-g" aggregationKind="NONE" name="employee" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3lncJxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VLI-cJxsEeqr9IqNfd77-g" position="642.0,260.0"/>
+      <visibility xmi:id="_T1n9AJxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T1mu4JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T2SEUJxsEeqr9IqNfd77-g" sourceAnchor="644.0,100.0" targetAnchor="79.0,76.0" target="_T7DPkJxsEeqr9IqNfd77-g" source="_T2Xj4JxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_S_aGsJxsEeqr9IqNfd77-g"/>
+    <bendpoints xmi:id="_PPN9IJxtEeqr9IqNfd77-g" sourceX="218" targetY="155"/>
+    <stereotypes xmi:id="_T2SEUZxsEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S_p-UJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_T2SEUpxsEeqr9IqNfd77-g" text="">
+      <visualProperties xmi:id="_VLQTMJxsEeqr9IqNfd77-g" position="-96.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T2SEU5xsEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S_aGsZxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VLMBwJxsEeqr9IqNfd77-g" position="50.0,-20.0"/>
+      <visibility xmi:id="_T2SEVJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T2SEVZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T2SEVpxsEeqr9IqNfd77-g" aggregationKind="NONE" name="employeeRepository" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S7GOcJxsEeqr9IqNfd77-g"/>
+      <visualProperties xmi:id="_VLSIYJxsEeqr9IqNfd77-g" position="-70.0,134.0"/>
+      <visibility xmi:id="_T2SEV5xsEeqr9IqNfd77-g" label="-"/>
+      <cardinality xmi:id="_T2SEWJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_T6t4YJxsEeqr9IqNfd77-g" sourceAnchor="580.0,0.0" targetAnchor="67.0,200.0" dashed="true" superClass="_T6yJ0JxsEeqr9IqNfd77-g" subClass="_T3zuUJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_StyLMJxsEeqr9IqNfd77-g"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WRqaQJxvEeqr9IqNfd77-g" target="_TyfwgJxsEeqr9IqNfd77-g" source="_T6a9cJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_WJXZ4JxvEeqr9IqNfd77-g"/>
+    <stereotypes xmi:id="_WRqaQZxvEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WJyQoJxvEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_WRqaQpxvEeqr9IqNfd77-g" text=""/>
+    <sourceRole xmi:id="_WRqaQ5xvEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WJXZ4ZxvEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_WRqaRJxvEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_WRqaRZxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WRqaRpxvEeqr9IqNfd77-g" aggregationKind="NONE" name="getCommand" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WJO3AJxvEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_WeGTwJxvEeqr9IqNfd77-g" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_WeMaYJxvEeqr9IqNfd77-g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WeShAJxvEeqr9IqNfd77-g" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_We8BQJxvEeqr9IqNfd77-g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_WRqaR5xvEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_WRqaSJxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WSLXoJxvEeqr9IqNfd77-g" target="_TyfwgJxsEeqr9IqNfd77-g" source="_T6a9cJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_WJy3sJxvEeqr9IqNfd77-g"/>
+    <stereotypes xmi:id="_WSLXoZxvEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WKKEEJxvEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_WSLXopxvEeqr9IqNfd77-g" text=""/>
+    <sourceRole xmi:id="_WSLXo5xvEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WJy3sZxvEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_WSLXpJxvEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_WSLXpZxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WSLXppxvEeqr9IqNfd77-g" aggregationKind="NONE" name="postCommand" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WJTIcJxvEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_WfEkIJxvEeqr9IqNfd77-g" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_WfHncJxvEeqr9IqNfd77-g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WfMf8JxvEeqr9IqNfd77-g" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_WfO8MJxvEeqr9IqNfd77-g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_WSLXp5xvEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_WSLXqJxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_logBYJxvEeqr9IqNfd77-g" target="_TyfwgJxsEeqr9IqNfd77-g" source="_T6a9cJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_lncRcJxvEeqr9IqNfd77-g"/>
+    <stereotypes xmi:id="_logBYZxvEeqr9IqNfd77-g" name="Reference">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_lny2wJxvEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_logBYpxvEeqr9IqNfd77-g" text=""/>
+    <sourceRole xmi:id="_logBY5xvEeqr9IqNfd77-g" aggregationKind="NONE" name="">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_lncRcZxvEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_logBZJxvEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_logBZZxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_logBZpxvEeqr9IqNfd77-g" aggregationKind="NONE" name="deleteCommand" navigable="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_lnZOIJxvEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_lomIAJxvEeqr9IqNfd77-g" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_lowgEJxvEeqr9IqNfd77-g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_lo3NwJxvEeqr9IqNfd77-g" name="MultiDeclaration"/>
+      <stereotypes xmi:id="_lo-igJxvEeqr9IqNfd77-g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_logBZ5xvEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_logBaJxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_TyfwgJxsEeqr9IqNfd77-g" name="CommandBase" associationsIn="_WRqaQJxvEeqr9IqNfd77-g _WSLXoJxvEeqr9IqNfd77-g _logBYJxvEeqr9IqNfd77-g" subclassedBy="_TynsUJxsEeqr9IqNfd77-g _TzqOIJxsEeqr9IqNfd77-g _T0CooJxsEeqr9IqNfd77-g _T0etgJxsEeqr9IqNfd77-g _T09OoJxsEeqr9IqNfd77-g _T1ahoJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SP-04JxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_TygXkJxsEeqr9IqNfd77-g" position="-354.0,391.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TygXkZxsEeqr9IqNfd77-g" label="+"/>
+    <operations xmi:id="_TygXkpxsEeqr9IqNfd77-g" abstractOperation="true" name="execute">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SQAqEJxsEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_TygXk5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_TygXlJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Tz10UJxsEeqr9IqNfd77-g" name="CreateEmployeeCommand" associationsOut="_TzsDUJxsEeqr9IqNfd77-g" generalizations="_TzqOIJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SQCfQJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_Tz10UZxsEeqr9IqNfd77-g" position="-143.0,711.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Tz10UpxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_Tz10U5xsEeqr9IqNfd77-g" name="employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3Vv0JxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_Tz10VJxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S3XlAJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_Tz10VZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_Tz10VpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_Tz10V5xsEeqr9IqNfd77-g" name="Employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Tz10WJxsEeqr9IqNfd77-g" name="execute">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SQRIwJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_Tz10WZxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SQVaMJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Tz10WpxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SQWoUJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_Tz10W5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_Tz10XJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Tz10XZxsEeqr9IqNfd77-g" name="CreateEmployeeCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SkXJcJxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_Tz10XpxsEeqr9IqNfd77-g" keyword="create"/>
+      <visibility xmi:id="_Tz10X5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_Tz10YJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Tz10YZxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SkYXkZxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_Tz10YpxsEeqr9IqNfd77-g" name="CreateEmployeeCommand">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SQCfQJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Tz10Y5xsEeqr9IqNfd77-g" name="employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SkXJcZxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_Tz10ZJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_Tz10ZZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T0Pc8JxsEeqr9IqNfd77-g" name="ReadEmployeeCommand" associationsOut="_T0Fr8JxsEeqr9IqNfd77-g" generalizations="_T0CooJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SRssIJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T0Pc8ZxsEeqr9IqNfd77-g" position="-163.0,850.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_T0Pc8pxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_T0Pc85xsEeqr9IqNfd77-g" name="employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3ikIJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T0Pc9JxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S3kZUJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T0Pc9ZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T0Pc9pxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T0Pc95xsEeqr9IqNfd77-g" name="Employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_T0Pc-JxsEeqr9IqNfd77-g" name="execute">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SRwWgJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T0Pc-ZxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SRxkoJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T0Pc-pxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SRyLsJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T0Pc-5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T0Pc_JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T0Pc_ZxsEeqr9IqNfd77-g" name="ReadEmployeeCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SlDF8JxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_T0Pc_pxsEeqr9IqNfd77-g" keyword="create"/>
+      <visibility xmi:id="_T0Pc_5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T0PdAJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T0PdAZxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SlDtApxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T0PdApxsEeqr9IqNfd77-g" name="ReadEmployeeCommand">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SRssIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T0PdA5xsEeqr9IqNfd77-g" name="employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SlDF8ZxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T0PdBJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T0PdBZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T0vMMJxsEeqr9IqNfd77-g" name="ReadAllEmployeesCommand" associationsOut="_T0iX4JxsEeqr9IqNfd77-g" generalizations="_T0etgJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SRSccJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T0vMMZxsEeqr9IqNfd77-g" position="-168.0,1011.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_T0vMMpxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_T0vMM5xsEeqr9IqNfd77-g" name="employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3gH4JxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T0vMNJxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S3h9EJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T0vMNZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T0vMNpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T0vMN5xsEeqr9IqNfd77-g" name="Employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_T0vMOJxsEeqr9IqNfd77-g" name="execute">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SRZxMJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T0vMOZxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SRcNcJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T0vMOpxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SReCoJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T0vMO5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T0vMPJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T0vMPZxsEeqr9IqNfd77-g" name="ReadAllEmployeesCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_Sk5U8JxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_T0vMPpxsEeqr9IqNfd77-g" keyword="create"/>
+      <visibility xmi:id="_T0vMP5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T0vMQJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T0vMQZxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_Sk7KIZxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T0vMQpxsEeqr9IqNfd77-g" name="ReadAllEmployeesCommand">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SRSccJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T0vMQ5xsEeqr9IqNfd77-g" name="employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_Sk58AJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T0vMRJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T0vMRZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T1KC8JxsEeqr9IqNfd77-g" name="DeleteEmployeeCommand" associationsOut="_T1AR8JxsEeqr9IqNfd77-g" generalizations="_T09OoJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SQ1wgJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T1KC8ZxsEeqr9IqNfd77-g" position="-184.0,1191.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_T1KC8pxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_T1KC85xsEeqr9IqNfd77-g" name="employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3dEkJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T1KC9JxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S3e5wJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T1KC9ZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T1KC9pxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T1KqAJxsEeqr9IqNfd77-g" name="Employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_T1KqAZxsEeqr9IqNfd77-g" name="execute">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SQ-TYJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T1KqApxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SQ_hgJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T1KqA5xsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SRGPMJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T1KqBJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T1KqBZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T1KqBpxsEeqr9IqNfd77-g" name="DeleteEmployeeCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_Skvj8JxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_T1KqB5xsEeqr9IqNfd77-g" keyword="create"/>
+      <visibility xmi:id="_T1KqCJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T1KqCZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T1KqCpxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SkynQJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T1KqC5xsEeqr9IqNfd77-g" name="DeleteEmployeeCommand">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SQ1wgJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T1KqDJxsEeqr9IqNfd77-g" name="employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SkwLAJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T1KqDZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T1KqDpxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T1tckJxsEeqr9IqNfd77-g" name="UpdateEmployeeCommand" associationsOut="_T1dk8JxsEeqr9IqNfd77-g" generalizations="_T1ahoJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SR5gcJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T1tckZxsEeqr9IqNfd77-g" position="-825.0,711.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_T1tckpxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_T1tck5xsEeqr9IqNfd77-g" name="employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3lncJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T1tclJxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S3ncoJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T1tclZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T1tclpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T1tcl5xsEeqr9IqNfd77-g" name="Employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_T1tcmJxsEeqr9IqNfd77-g" name="execute">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SR_AAJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T1tcmZxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SSAOIJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T1tcmpxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SSBcQJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T1tcm5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T1tcnJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T1tcnZxsEeqr9IqNfd77-g" name="UpdateEmployeeCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SlJzoJxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_T1tcnpxsEeqr9IqNfd77-g" keyword="create"/>
+      <visibility xmi:id="_T1tcn5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T1tcoJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T1tcoZxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SlLo0ZxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T1tcopxsEeqr9IqNfd77-g" name="UpdateEmployeeCommand">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SR5gcJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T1tco5xsEeqr9IqNfd77-g" name="employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SlKasJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T1tcpJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T1tcpZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T2Xj4JxsEeqr9IqNfd77-g" name="EmployeeController" associationsOut="_T2SEUJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SVQ9gJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T2Xj4ZxsEeqr9IqNfd77-g" position="552.0,690.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_T2Xj4pxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SVV2AJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_T2Xj45xsEeqr9IqNfd77-g" name="Annotations">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SY0n0JxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <visibility xmi:id="_T2Xj5JxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_T2Xj5ZxsEeqr9IqNfd77-g" name="employeeRepository">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S7GOcJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T2Xj5pxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S7IDoJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T2Xj55xsEeqr9IqNfd77-g" label="-"/>
+      <cardinality xmi:id="_T2Xj6JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T2Xj6ZxsEeqr9IqNfd77-g" name="EmployeeRepository">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SShLgJxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_T2Xj6pxsEeqr9IqNfd77-g" name="getAllEmployees">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SVZgYJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T2Xj65xsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SVgOEJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T2Xj7JxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T2Xj7ZxsEeqr9IqNfd77-g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_T2Xj7pxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SVaugJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T2Xj75xsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_T2Xj8JxsEeqr9IqNfd77-g" name="getEmployeeId">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SVp_EJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T2Xj8ZxsEeqr9IqNfd77-g" name="Generics">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SW0csJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T2Xj8pxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SW3gAJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T2Xj85xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T2Xj9JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T2Xj9ZxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S22noJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T2Xj9pxsEeqr9IqNfd77-g" name="ResponseEntity">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SvnXMJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T2Xj95xsEeqr9IqNfd77-g" name="employeeId">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SVrNMJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T2Xj-JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T2Xj-ZxsEeqr9IqNfd77-g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_T2Xj-pxsEeqr9IqNfd77-g" name="deleteEmployee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SW-NsJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T2aAIJxsEeqr9IqNfd77-g" name="Generics">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SXl4wJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T2aAIZxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SXrYUJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T2aAIpxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T2aAI5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T2aAJJxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S26SAJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T2aAJZxsEeqr9IqNfd77-g" name="ResponseEntity">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SvnXMJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T2aAJpxsEeqr9IqNfd77-g" name="employeeId">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SW_b0JxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T2aAJ5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T2aAKJxsEeqr9IqNfd77-g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_T2aAKZxsEeqr9IqNfd77-g" name="deleteAllEmployees">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SXuboJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T2aAKpxsEeqr9IqNfd77-g" name="Generics">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SYposJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T2aAK5xsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SYuhMJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T2aALJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T2aALZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T2aALpxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S298YJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T2aAL5xsEeqr9IqNfd77-g" name="ResponseEntity">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SvnXMJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_T2aAMJxsEeqr9IqNfd77-g" name="createEmployee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SzLBgJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T2aAMZxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SzOr4JxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T2aAMpxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T2aAM5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T2aANJxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SzM2sJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T2aANZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T2aANpxsEeqr9IqNfd77-g" name="employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SzLokJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T2aAN5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T2anMJxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_T2anMZxsEeqr9IqNfd77-g" name="updateEmployee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SzcHQJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T2anMpxsEeqr9IqNfd77-g" name="Generics">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S0Sb0JxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T2anM5xsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S0yLEJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T2anNJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T2anNZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T2anNpxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S24c0JxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T2anN5xsEeqr9IqNfd77-g" name="ResponseEntity">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SvnXMJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T2anOJxsEeqr9IqNfd77-g" name="employeeId">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SzcHQZxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T2anOZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T2anOpxsEeqr9IqNfd77-g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T2anO5xsEeqr9IqNfd77-g" name="employeeDetails">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SzcuUJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T2anPJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T2anPZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T3JnAJxsEeqr9IqNfd77-g" name="ResourceNotFoundException">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SSTJEJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T3JnAZxsEeqr9IqNfd77-g" position="-827.0,886.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_T3JnApxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSU-QJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_T3JnA5xsEeqr9IqNfd77-g" name="Annotations">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SScTAJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <visibility xmi:id="_T3JnBJxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_T3JnBZxsEeqr9IqNfd77-g" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3oDsJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3JnBpxsEeqr9IqNfd77-g" name="StyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S3qf8JxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3JnB5xsEeqr9IqNfd77-g" label="-"/>
+      <cardinality xmi:id="_T3JnCJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3JnCZxsEeqr9IqNfd77-g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_T3JnCpxsEeqr9IqNfd77-g" name="ResourceNotFoundException">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSYBkJxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_T3JnC5xsEeqr9IqNfd77-g" keyword="create"/>
+      <stereotypes xmi:id="_T3JnDJxsEeqr9IqNfd77-g" name="StyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SSbE4JxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3JnDZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3JnDpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T3JnD5xsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SSZ2wJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T3JnEJxsEeqr9IqNfd77-g" name="ResourceNotFoundException">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SSTJEJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T3JnEZxsEeqr9IqNfd77-g" name="message">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SSYooJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T3JnEpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T3JnE5xsEeqr9IqNfd77-g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T6a9cJxsEeqr9IqNfd77-g" name="RemoteControl" associationsOut="_WRqaQJxvEeqr9IqNfd77-g _WSLXoJxvEeqr9IqNfd77-g _logBYJxvEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SS0GcJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T6a9cZxsEeqr9IqNfd77-g" position="-620.0,556.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_T6a9cpxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_WVLoUJxvEeqr9IqNfd77-g" name="getCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WJO3AJxvEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_WVLoUZxvEeqr9IqNfd77-g" name="MultiDeclaration">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_WJQFIJxvEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WVLoUpxvEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_WJQsMJxvEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_WVLoU5xvEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_WVLoVJxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_WVLoVZxvEeqr9IqNfd77-g" name="CommandBase">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SP-04JxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WVLoVpxvEeqr9IqNfd77-g" name="postCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_WJTIcJxvEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_WVLoV5xvEeqr9IqNfd77-g" name="MultiDeclaration">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_WJTvgJxvEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WVLoWJxvEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_WJUWkJxvEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_WVLoWZxvEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_WVLoWpxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_WVLoW5xvEeqr9IqNfd77-g" name="CommandBase">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SP-04JxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_logocJxvEeqr9IqNfd77-g" name="deleteCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_lnZOIJxvEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_lohPgJxvEeqr9IqNfd77-g" name="MultiDeclaration">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_lnacQJxvEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lohPgZxvEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_lnbDUJxvEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_lohPgpxvEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_lohPg5xvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_lohPhJxvEeqr9IqNfd77-g" name="CommandBase">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SP-04JxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eaLZgJxvEeqr9IqNfd77-g" name="get">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_eZ5FoJxvEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_eaLZgZxvEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_eaLZgpxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eaLZg5xvEeqr9IqNfd77-g" name="getCommand">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_eZ5FoZxvEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_eaLZhJxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_eaLZhZxvEeqr9IqNfd77-g" name="CommandBase">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SP-04JxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eaPD4JxvEeqr9IqNfd77-g" name="post">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_eZ5ssJxvEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_eaPD4ZxvEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_eaPD4pxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eaPD45xvEeqr9IqNfd77-g" name="postCommand">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_eZ6TwJxvEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_eaPD5JxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_eaPD5ZxvEeqr9IqNfd77-g" name="CommandBase">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SP-04JxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ln0r8JxvEeqr9IqNfd77-g" name="delete">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_lnTHgJxvEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_ln0r8ZxvEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_ln0r8pxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ln0r85xvEeqr9IqNfd77-g" name="deleteCommand">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_lnUVoJxvEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_ln0r9JxvEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_ln0r9ZxvEeqr9IqNfd77-g" name="CommandBase">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SP-04JxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_T6yJ0JxsEeqr9IqNfd77-g" name="Device" subclassedBy="_T6t4YJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SSsxsJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T6yJ0ZxsEeqr9IqNfd77-g" position="-1607.0,-216.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_T6yJ0pxsEeqr9IqNfd77-g" label="+"/>
+    <operations xmi:id="_T6yJ05xsEeqr9IqNfd77-g" name="create">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSum4JxsEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_T6yJ1JxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T6yJ1ZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T6yJ1pxsEeqr9IqNfd77-g" name="read">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSvN8JxsEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_T6yJ15xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T6yJ2JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T6yJ2ZxsEeqr9IqNfd77-g" name="readAll">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSv1AJxsEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_T6yJ2pxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T6yJ25xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T6yJ3JxsEeqr9IqNfd77-g" name="update">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSxDIJxsEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_T6yJ3ZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T6yJ3pxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T6yJ35xsEeqr9IqNfd77-g" name="delete">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSyRQJxsEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_T6yJ4JxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T6yJ4ZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T6yJ4pxsEeqr9IqNfd77-g" name="deleteAll">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSzfYJxsEeqr9IqNfd77-g"/>
+      <visibility xmi:id="_T6yJ45xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T6yJ5JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_T7DPkJxsEeqr9IqNfd77-g" name="EmployeeRepository" associationsIn="_T2SEUJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SShLgJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T7DPkZxsEeqr9IqNfd77-g" position="1335.0,559.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_T7DPkpxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSlc8JxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_T7DPk5xsEeqr9IqNfd77-g" name="Annotations">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSogQJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <visibility xmi:id="_T7DPlJxsEeqr9IqNfd77-g" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T7NnoJxsEeqr9IqNfd77-g" name="EmployeeSpringBootApplicationTests">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SSHi4JxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T7NnoZxsEeqr9IqNfd77-g" position="-531.0,1060.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_T7NnopxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSJ_IJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_T7Nno5xsEeqr9IqNfd77-g" name="Annotations">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSR68JxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <visibility xmi:id="_T7NnpJxsEeqr9IqNfd77-g" label="~"/>
+    <operations xmi:id="_T7NnpZxsEeqr9IqNfd77-g" name="contextLoads">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SSKmMJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T7NnppxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SSPesJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T7Nnp5xsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_T7NnqJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Tvv-gJxsEeqr9IqNfd77-g" name="EmployeeSpringBootApplication">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SPE18JxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_Tvv-gZxsEeqr9IqNfd77-g" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Tvv-gpxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SPPOAJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Tvv-g5xsEeqr9IqNfd77-g" name="Annotations">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SPxZgJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <visibility xmi:id="_Tvv-hJxsEeqr9IqNfd77-g" label="+"/>
+    <operations xmi:id="_Tvv-hZxsEeqr9IqNfd77-g" name="main" staticOperation="true">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SPqr0JxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_Tvv-hpxsEeqr9IqNfd77-g" name="StyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SPuWMJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_Tvv-h5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_Tvv-iJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Tvv-iZxsEeqr9IqNfd77-g" name="args">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SPrS4JxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_Tvv-ipxsEeqr9IqNfd77-g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Tvv-i5xsEeqr9IqNfd77-g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_T3zuUJxsEeqr9IqNfd77-g" name="Employee" associationsIn="_TzsDUJxsEeqr9IqNfd77-g _Ty1uwJxsEeqr9IqNfd77-g _T1AR8JxsEeqr9IqNfd77-g _T0iX4JxsEeqr9IqNfd77-g _T0Fr8JxsEeqr9IqNfd77-g _T1dk8JxsEeqr9IqNfd77-g" generalizations="_T6t4YJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_T3zuUZxsEeqr9IqNfd77-g" position="-2120.0,39.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_T3zuUpxsEeqr9IqNfd77-g" name="Table">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_STZ8UJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <stereotypes xmi:id="_T3zuU5xsEeqr9IqNfd77-g" name="JPA1StyledElement">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_STdmsJxsEeqr9IqNfd77-g"/>
+    </stereotypes>
+    <visibility xmi:id="_T3zuVJxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_T3zuVZxsEeqr9IqNfd77-g" name="id">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S35JcJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zuVpxsEeqr9IqNfd77-g" name="PrimaryKey">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S35wgJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T3zuV5xsEeqr9IqNfd77-g" name="GeneratedValueMapping">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S36-oJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zuWJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zuWZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zuWpxsEeqr9IqNfd77-g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T3zuW5xsEeqr9IqNfd77-g" name="firstName">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3_QEJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zuXJxsEeqr9IqNfd77-g" name="Column">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S4wsIJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zuXZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zuXpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zuX5xsEeqr9IqNfd77-g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T3zuYJxsEeqr9IqNfd77-g" name="lastName">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S43Z0JxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zuYZxsEeqr9IqNfd77-g" name="Column">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S5bagJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zuYpxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zuY5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zuZJxsEeqr9IqNfd77-g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T3zuZZxsEeqr9IqNfd77-g" name="birthYear">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S5gTAJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zuZpxsEeqr9IqNfd77-g" name="Column">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S5uVcJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zuZ5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zuaJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zuaZxsEeqr9IqNfd77-g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T3zuapxsEeqr9IqNfd77-g" name="emailId">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S5wxsJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zua5xsEeqr9IqNfd77-g" name="Column">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S6GI4JxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zubJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zubZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zubpxsEeqr9IqNfd77-g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T3zub5xsEeqr9IqNfd77-g" name="phoneNumber">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S6IlIJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zucJxsEeqr9IqNfd77-g" name="Column">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S6cuMJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zucZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zucpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zuc5xsEeqr9IqNfd77-g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T3zudJxsEeqr9IqNfd77-g" name="socialSecurity">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S6fxgJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zudZxsEeqr9IqNfd77-g" name="Column">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S6qwoJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zudpxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zud5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zueJxsEeqr9IqNfd77-g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T3zueZxsEeqr9IqNfd77-g" name="accountNumber">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S6tM4JxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T3zuepxsEeqr9IqNfd77-g" name="Column">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S6_gwJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T3zue5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T3zufJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_T3zufZxsEeqr9IqNfd77-g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_T30VYJxsEeqr9IqNfd77-g" name="Employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_STuFYJxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_T30VYZxsEeqr9IqNfd77-g" keyword="create"/>
+      <stereotypes xmi:id="_T30VYpxsEeqr9IqNfd77-g" name="StyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STv6kJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30VY5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30VZJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T30VZZxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STvTgZxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T30VZpxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_T30VZ5xsEeqr9IqNfd77-g" name="Employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_STzk8JxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_T30VaJxsEeqr9IqNfd77-g" keyword="create"/>
+      <stereotypes xmi:id="_T30VaZxsEeqr9IqNfd77-g" name="StyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST5EgJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30VapxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30Va5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T30VbJxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST32YZxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_T30VbZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_T30VbpxsEeqr9IqNfd77-g" name="id">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STzk8ZxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30Vb5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30VcJxsEeqr9IqNfd77-g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T30VcZxsEeqr9IqNfd77-g" name="firstName">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST0MAJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30VcpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30Vc5xsEeqr9IqNfd77-g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T30VdJxsEeqr9IqNfd77-g" name="lastName">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST0zEJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30VdZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30VdpxsEeqr9IqNfd77-g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T30Vd5xsEeqr9IqNfd77-g" name="birthYear">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST0zEZxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30VeJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30VeZxsEeqr9IqNfd77-g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T30VepxsEeqr9IqNfd77-g" name="emailId">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST1aIJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30Ve5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30VfJxsEeqr9IqNfd77-g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T30VfZxsEeqr9IqNfd77-g" name="phoneNumber">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST2BMJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30VfpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30Vf5xsEeqr9IqNfd77-g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T30VgJxsEeqr9IqNfd77-g" name="socialSecurity">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST2oQJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30VgZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30VgpxsEeqr9IqNfd77-g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_T30Vg5xsEeqr9IqNfd77-g" name="accountNumber">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_ST2oQZxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_T30VhJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_T30VhZxsEeqr9IqNfd77-g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_T30VhpxsEeqr9IqNfd77-g" name="create">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_ST-kEJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T30Vh5xsEeqr9IqNfd77-g" name="StyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUAZQJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30ViJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30ViZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T30VipxsEeqr9IqNfd77-g" name="read">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SUBAUJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T30Vi5xsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUDckJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T30VjJxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUFRwJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30VjZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30VjpxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T30Vj5xsEeqr9IqNfd77-g" name="readAll">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SUF40JxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T30VkJxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUL_cJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T30VkZxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUObsJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30VkpxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30Vk5xsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T30VlJxsEeqr9IqNfd77-g" name="update">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SUPCwZxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T30VlZxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUQQ4JxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T30VlpxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUTUMJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30Vl5xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30VmJxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T30VmZxsEeqr9IqNfd77-g" name="delete">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SUUiUJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T30VmpxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUWXgJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T30Vm5xsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUXloJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30VnJxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30VnZxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T30VnpxsEeqr9IqNfd77-g" name="deleteAll">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SUYzwJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_T30Vn5xsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUceIJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_T30VoJxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SUgIgJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_T30VoZxsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_T30VopxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ty284JxsEeqr9IqNfd77-g" name="DeleteAllEmployeesCommand" associationsOut="_Ty1uwJxsEeqr9IqNfd77-g" generalizations="_TynsUJxsEeqr9IqNfd77-g">
+    <modelElement href="Employee-Spring-Boot-Application.uml#_SQekIJxsEeqr9IqNfd77-g"/>
+    <visualProperties xmi:id="_Ty284ZxsEeqr9IqNfd77-g" position="-165.0,570.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ty284pxsEeqr9IqNfd77-g" label="+"/>
+    <attributes xmi:id="_Ty2845xsEeqr9IqNfd77-g" name="employee">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_S3ZaMJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_Ty285JxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_S3aoUJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_Ty285ZxsEeqr9IqNfd77-g" label="~"/>
+      <cardinality xmi:id="_Ty285pxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <type xmi:id="_Ty2855xsEeqr9IqNfd77-g" name="Employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ty286JxsEeqr9IqNfd77-g" name="execute">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SQoVIJxsEeqr9IqNfd77-g"/>
+      <stereotypes xmi:id="_Ty286ZxsEeqr9IqNfd77-g" name="LegacyStyledElement">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SQqKUJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ty286pxsEeqr9IqNfd77-g" name="Annotations">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SQrYcJxsEeqr9IqNfd77-g"/>
+      </stereotypes>
+      <visibility xmi:id="_Ty2865xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_Ty287JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Ty287ZxsEeqr9IqNfd77-g" name="DeleteAllEmployeesCommand">
+      <modelElement href="Employee-Spring-Boot-Application.uml#_SkdQEJxsEeqr9IqNfd77-g"/>
+      <keywords xmi:id="_Ty287pxsEeqr9IqNfd77-g" keyword="create"/>
+      <visibility xmi:id="_Ty2875xsEeqr9IqNfd77-g" label="+"/>
+      <cardinality xmi:id="_Ty288JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ty288ZxsEeqr9IqNfd77-g">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SkfsUJxsEeqr9IqNfd77-g"/>
+        <type xmi:id="_Ty288pxsEeqr9IqNfd77-g" name="DeleteAllEmployeesCommand">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_SQekIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ty2885xsEeqr9IqNfd77-g" name="employee">
+        <modelElement href="Employee-Spring-Boot-Application.uml#_SkeeMJxsEeqr9IqNfd77-g"/>
+        <cardinality xmi:id="_Ty289JxsEeqr9IqNfd77-g" label="1" max="1" min="1"/>
+        <type xmi:id="_Ty289ZxsEeqr9IqNfd77-g" name="Employee">
+          <modelElement href="Employee-Spring-Boot-Application.uml#_STElIJxsEeqr9IqNfd77-g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
