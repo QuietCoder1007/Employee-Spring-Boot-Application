@@ -16,7 +16,6 @@
 ```curl -X PUT -d username=? -d password=? -d birthYear=? http://localhost:8080/employees/add```
 
 ## DELETE
-<br/>
 #### DELETE all users from database
 ```curl -X DELETE http://localhost:8080/employees/delete```
 
